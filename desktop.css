@@ -1,0 +1,116 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.navbar{
+    background-color: black;
+    
+}
+.nav_logo{
+    text-align: left;
+}
+
+.nav_heading h1{
+    text-align: right;
+}
+.navbar_menu{
+   flex-direction: row;
+   justify-content: flex-end;
+}
+.navbar_menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+/* 2nd class start here */
+
+.profile .iconfor{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    right: 100px;
+    top: 20px;
+    transition: width 2s, transform 2s;
+}
+.profile .iconfor:hover{
+   transform: rotate(360deg);
+   width: 120px;
+   height: 120px;
+}
+.profile .rlogo{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    bottom: 20px;
+    transition: width 2s, transform 2s;
+}
+.profile .rlogo:hover{
+   transform: rotate(360deg);
+   width: 120px;
+   height: 120px;
+}
+.profile_desk p{
+    text-align: center;
+    color: gray;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.navbar .me{
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    
+    transition: transform 3s;
+}
+.navbar .me:hover{
+   transform: scale(1.4);
+   width: 80px;
+   height: 80px;
+}
+/* 3rd class about me */
+
+.aboutme_image{
+    margin-top: 100px;
+}
+.aboutme_image img{
+    width: 250px;
+    height: 250px;
+}
+.aboutme_desc p{
+    text-align: left;
+}
+/* 4rth class wrk edu */
+
+/* 6th class after accheivement contact */
+.achievement{
+    padding-right: 50px;
+}
+.contact button{
+
+    width: 150px;
+}
+.contact_link{
+    position: relative;
+}
+.media_btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 100px;
+    transform: translate(-50%,-50%);
+}
